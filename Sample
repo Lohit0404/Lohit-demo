@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <title>Document</title>
+        <style>
+            h1
+            {
+                color:red;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace;
+                font-style: italic;
+                text-align: center;
+            }
+            ::marker
+            {
+                color:blue;
+            }
+            ::selection
+            {
+                color:cyan;
+            }
+            .div1
+            {
+                background-color:lightgreen;
+                border:20px solid;
+                padding: 100px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+                display: inline-block;
+            }
+            .flex
+            {
+                background-color: hotpink;
+                border: 20px solid red;
+                justify-content: space-between;
+                display:flex;
+                flex-direction: row;
+                padding: 20px;
+
+             }
+            .flex>div
+            {
+                background-color:yellow;
+                width: 30px;
+                height: 20px;
+                padding:20px;
+                border: 2px solid;
+                font-size: large;
+            }
+            .parent
+            {
+                background-color: yellow;
+                justify-content:space-between;
+                /* display: flex;
+                flex-direction: row; */
+                display: grid;
+                grid-template-columns: 103px;
+                border: 10px solid darkred;
+             }
+            .parent div
+            {
+                background-color: red;
+                padding: 30px;
+                border: 2px solid black;
+                width: 30px;
+                height: 20px;
+                font-size: large;
+            }
+            .top
+            {
+                color: blueviolet;
+                background-color: greenyellow;
+            }
+            .text
+            {
+                height: 300px;;
+                width: 300px;;
+                background-color: blueviolet;
+                overflow:scroll;
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+            .text1{
+                width: 20%;
+                height: 100px;
+                background-color: gray;
+                overflow: scroll;
+            }
+            </style>       
+    <h1>Types of CSS</h1>
+    <p>
+        There are three types of CSS: external, internal, and inline. External CSS commands are written in a separate file from the main HTML page. These are then linked to each web page by a command in the HTML file.
+    </p>
+    <div>
+        <div class="div1">padding</div>
+    </div>
+       <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <div class="parent">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+        <div class="seven">seven</div>
+        <div class="eight">eight</div>
+    </div>
+    <div class="text"> 
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores magni, voluptates sed cum non perferendis deserunt quibusdam illum ut esse quisquam. Dolorem expedita ex facere. Veritatis vitae laborum velit?
+       Minus aperiam hic possimus? Adipisci similique obcaecati et sapiente quasi error necessitatibus nisi expedita dolor possimus tenetur, accusamus saepe mollitia dolore eius assumenda ipsa doloremque magnam! Deserunt ducimus voluptate doloremque.
+       Veniam, dolores animi quaerat culpa tempora quo incidunt qui rerum magni ex quod minima hic quae nesciunt placeat iure eveniet sit et sunt explicabo perspiciatis! Fugiat repudiandae doloremque nisi excepturi!
+       Dolorum rerum voluptatum quo laudantium recusandae nihil consequuntur labore reprehenderit numquam eveniet hic, a ipsa non dolores cumque vel porro temporibus dolor ullam odio atque magnam eum vero! Distinctio, fugiat.
+       Animi cum pariatur distinctio dolor laudantium soluta. Perspiciatis eum non cumque, accusamus sapiente saepe. Aliquam quia asperiores eum accusamus vel numquam, illum quos quis molestiae itaque, necessitatibus, assumenda ea repellat?
+       Molestiae nemo molestias quod velit suscipit explicabo animi totam aperiam, aliquid accusamus vel officia eum. Temporibus tenetur doloribus sequi mollitia accusantium quis voluptas cumque, officia fuga, maiores perspiciatis impedit odio!
+       Reprehenderit, vitae totam? Harum excepturi impedit labore reprehenderit perferendis. Id quidem tempora vero harum dicta illum explicabo totam beatae magni fugiat! Odit totam corporis neque dolores alias adipisci illum facilis.
+       Aliquid dolore, vel voluptas blanditiis ut perferendis reiciendis. Sunt, harum facere. Dolores laboriosam minus dignissimos aperiam cupiditate, autem voluptates tenetur animi esse recusandae, facilis necessitatibus atque, quos cum eveniet quis.
+       Culpa numquam cupiditate fuga quisquam? Magni amet asperiores facere? Soluta numquam eum veritatis? Rem hic sint minima dolorum unde expedita beatae esse deserunt! Sint perferendis facilis corporis, asperiores suscipit distinctio.
+       Nemo exercitationem quas nulla consequatur porro modi quos consequuntur nam odit tempora suscipit nisi explicabo, corporis tempore quaerat inventore magnam. Architecto quidem quos ex dolorum voluptatum sunt iusto ipsam iure!
+    </div>
+    <div class="text1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ad odit dolorum doloremque nesciunt nobis harum voluptates blanditiis, nisi quae facilis, iusto pariatur repellendus eum, ipsam saepe corporis sed dolores.
+        Sunt, autem nisi saepe sapiente, dicta vitae magnam, totam exercitationem dolorum sit excepturi iusto est nihil nostrum quo molestias numquam tempore doloremque eum. Eos quidem ipsa id in totam quaerat!
+        Suscipit ipsum officia voluptas id aliquid doloremque reiciendis deserunt eos, accusantium nemo quasi facilis laudantium! Eligendi quidem, aspernatur sit ipsa mollitia accusantium eos quod commodi harum error officia voluptatem quo.
+        Similique, cumque sint? Sapiente velit necessitatibus error autem laudantium aperiam dolorum at beatae veniam, mollitia nostrum repudiandae, cumque modi omnis a architecto sed libero repellat vero? Eligendi eaque provident aliquam.
+        Eius sequi impedit, quo qui voluptatibus repellendus. Dicta omnis accusamus in laborum architecto nam explicabo, sunt fuga, vitae eligendi perspiciatis non. Odio ex aspernatur nesciunt! Minima facere reprehenderit iusto velit.
+    </div>
+    </body>
+    
